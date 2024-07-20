@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            object-fit: cover;
+            height: 200px; /* Adjust the height as needed */
+        }
+        .card {
+            width: 150px; /* Adjust the width as needed */
+        }
+        .card-container {
+            display: inline-block;
+            margin-right: 20px; /* Adjust the margin between cards */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center" style="font-family: 'Cursive', sans-serif;">You Can Upload Images Here</h1>
+        <form method="POST" enctype="multipart/form-data" class="mt-4">
+            <div class="form-group">
+                <label for="person_name">Name of the Person:</label>
+                <input type="text" class="form-control" id="person_name" name="person_name" placeholder="Enter person's name" required>
+            </div>
+            <div class="form-group">
+                <label for="file">Select Image:</label>
+                <input type="file" class="form-control-file" id="file" name="file" accept=".jpg,.jpeg,.png" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Upload</button>
+        </form>
+        <div class="mt-5">
+            <h2 class="text-center">Wait I Know Them !!</h2>
+            <div class="row overflow-auto" style="white-space: nowrap;">
+                {% for person in people %}
+                <div class="card-container">
+                    <div class="card mb-4">
+                        <img src="{{ url_for('peoples_static', filename=person['image']) }}" class="card-img-top" alt="{{ person['name'] }}">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">{{ person['name'] }}</h5>
+                            <a href="{{ url_for('person_images', person_name=person['name']) }}" class="btn btn-primary btn-block">View Images</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
