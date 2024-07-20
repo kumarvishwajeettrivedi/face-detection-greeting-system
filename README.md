@@ -45,7 +45,7 @@ wireless communication.
 • Cost-Effective Solution: Considered Realtek AMB82-Mini 8-in-1 SoC for
 embedded AI capabilities and efficient high-resolution processing up to 2K
 at 0.4 TOPs, ensuring cost-effective deployment.
-![working image ](https://raw.githubusercontent.com/kumarvishwajeettrivedi/face-detection-greeting-system.git/main/)
+![working image ](https://drive.google.com/file/d/130QlZ7k54KVPOn9EQVeMzseePtdXGlHy/view?usp=sharing)
 
 
 
