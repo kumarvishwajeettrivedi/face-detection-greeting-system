@@ -26,3 +26,12 @@ This project focuses on developing a robust face recognition and greeting model 
 - **Cost-Effective Solution**: Considered Realtek AMB82-Mini 8-in-1 SoC for embedded AI capabilities and efficient high-resolution processing up to 2K at 0.4 TOPs, ensuring cost-effective deployment.
 
 ![working image](https://raw.githubusercontent.com/kumarvishwajeettrivedi/face-detection-greeting-system/main/Screenshot%20from%202024-07-04%2018-18-29.png)
+
+.
+.
+.
+![working image](https://raw.githubusercontent.com/kumarvishwajeettrivedi/face-detection-greeting-system/main/Screenshot%20from%202024-07-04%2016-47-29.png)
+
+
+
+
