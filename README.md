@@ -25,4 +25,4 @@ This project focuses on developing a robust face recognition and greeting model 
 - **Hardware Challenges**: Due to Raspberry Pi's hardware limitations, explored alternatives like Grove Vision AI V2 with ARM Cortex-M55 processor and ARM Ethos-U55 NPU, supported by Xiao ESP32S3 for wireless communication.
 - **Cost-Effective Solution**: Considered Realtek AMB82-Mini 8-in-1 SoC for embedded AI capabilities and efficient high-resolution processing up to 2K at 0.4 TOPs, ensuring cost-effective deployment.
 
-![working image](https://drive.google.com/uc?export=view&id=130QlZ7k54KVPOn9EQVeMzseePtdXGlHy)
+![working image](https://raw.githubusercontent.com/kumarvishwajeettrivedi/face-detection-greeting-system/main/Screenshot%20from%202024-07-04%2018-18-29.png)
