@@ -27,9 +27,9 @@ This project focuses on developing a robust face recognition and greeting model 
 
 ![working image](https://raw.githubusercontent.com/kumarvishwajeettrivedi/face-detection-greeting-system/main/Screenshot%20from%202024-07-04%2018-18-29.png)
 
-.
-.
-.
+
+
+
 ![working image](https://raw.githubusercontent.com/kumarvishwajeettrivedi/face-detection-greeting-system/main/Screenshot%20from%202024-07-04%2016-47-29.png)
 
 
