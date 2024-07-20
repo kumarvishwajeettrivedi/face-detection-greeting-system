@@ -27,11 +27,46 @@ This project focuses on developing a robust face recognition and greeting model 
 
 ![working image](https://raw.githubusercontent.com/kumarvishwajeettrivedi/face-detection-greeting-system/main/Screenshot%20from%202024-07-04%2018-18-29.png)
 
-
+Main folder contains:
+• img folder: Contains processed images of individuals with correct labeling
+and timestamp. The images in this directory are used for training the ML
+model.
+• People folder: Contains images that are directly uploaded by users for
+future reference. If they want to delete an image, it will allow them to delete
+all its references within the folder.
+• Templates folder: Contains HTML, CSS, and JavaScript code used for
+creating the user interface.
+• Uploads folder: This folder contains images during the processing time.
+• App.py: This is the backend file that hosts the user interface.
+• First, launch this file; it will run on localhost:5000.
+• This can be changed once the model goes into production and has a
+domain.
+•
+• Final_model_rf.py: This file contains the ML model that detects faces in
+real-time.
 
 
 ![working image](https://raw.githubusercontent.com/kumarvishwajeettrivedi/face-detection-greeting-system/main/Screenshot%20from%202024-07-04%2016-47-29.png)
 
 
 
+Method to Upload a Picture:
+1. First, make sure to run the server. Navigate to the directory where app.py is
+located, then in the terminal, write: python3 app.py.
+2. In your browser, go to: localhost:5000 (This can be replaced with the actual
+domain).
+3. A page similar to the one in image 1.3 will appear. Fill out the input column
+and click the "Upload" button to upload an image.
+Method to Delete a Picture:
+1. Click the "View Image" button to see all images of the person.
+2. Click the "Delete" button to delete the image and all its references.
 
+
+The project presents a robust face recognition and greeting system developed
+using advanced computer vision tools such as OpenCV, DeepFace, and
+TensorFlow, integrated with the Raspberry Pi hardware platform. The primary
+goal was to achieve accurate real-time identification of individuals from a pre-
+constructed database and greet them by name. This system demonstrates
+significant potential for deployment in various environments including offices,
+hospitals, and public spaces, with applications ranging from personalized
+interactions to enhanced security and attendance monitoring.
