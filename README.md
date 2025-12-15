@@ -19,7 +19,7 @@ This project focuses on developing a robust face recognition and greeting model 
 - **UI Integration**: Developed a user-friendly interface using Flask as the backend server.
 - **Frontend Tools**: Leveraged HTML, CSS, Bootstrap, and JavaScript for frontend development to enhance user interaction and display real-time face detection results.
 ![user interface 1](https://raw.githubusercontent.com/kumarvishwajeettrivedi/face-detection-greeting-system/main/Screenshot%20from%202024-07-04%2016-58-05.png)
-![user interface 2](https://raw.githubusercontent.com/kumarvishwajeettrivedi/face-detection-greeting-system/main/Screenshot%20from%202024-07-04%2016-58-45.png)
+
 
 ## Final Approach
 
